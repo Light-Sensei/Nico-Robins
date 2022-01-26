@@ -71,7 +71,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """"I only yearn for Luffy. I have no reason to follow you." Hi,I am Boa Hancock made by @zerohisoka!!, send /help for command list...[.](https://telegra.ph/file/30872fa0a6606c15b077e.jpg)"""
+PM_START_TEXT = """"I only yearn for Luffy. I have no reason to follow you." Hi,I am Boa Hancock made by @zerohisoka!!, send /help for command list...[.](https://telegra.ph/file/c6d12f58142f768f289ee.jpg)"""
 
 HELP_STRINGS = """
 Hey, oh me Boa Hancock....!
@@ -89,7 +89,7 @@ List of all the Modules:
     "" if not ALLOW_EXCL else "📝All commands can either be used with / or !.",
 )
 
-EREN_IMG = "https://telegra.ph/file/30872fa0a6606c15b077e.jpg"
+EREN_IMG = "https://telegra.ph/file/c6d12f58142f768f289ee.jpg"
 
 DONATE_STRING = """Buy Me A Coffee ☕💜"""
 
@@ -622,7 +622,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I am now Alive!](https://telegra.ph/file/e11ced336019e2a887f07.jpg)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I am now Alive Boa Hancock!](https://telegra.ph/file/c6d12f58142f768f289ee.jpg)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
