@@ -71,10 +71,10 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """"I only yearn for Luffy. I have no reason to follow you." Hi,I am Boa Hancock made by @zerohisoka!!, send /help for command list...[.](https://telegra.ph/file/c6d12f58142f768f289ee.jpg)"""
+PM_START_TEXT = """" Hi,I am Touka made by @Light_Sensei!!, send /help for command list...[.](https://telegra.ph/file/c6d12f58142f768f289ee.jpg)"""
 
 HELP_STRINGS = """
-Hey, oh me Boa Hancock....!
+Hey, oh me Touka....!
 Give me enough rights else become stone 🗿.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
